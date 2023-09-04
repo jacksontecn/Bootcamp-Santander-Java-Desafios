@@ -22,7 +22,10 @@ public class CondicionalmenteRico {
 
         }
 
+<<<<<<< HEAD
         scanner.close();
 
+=======
+>>>>>>> origin/main
     }
 }
