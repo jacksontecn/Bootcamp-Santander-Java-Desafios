@@ -11,21 +11,18 @@ public class CondicionalmenteRico {
 
         int saldoDisponivel;
 
-        if(saldoTotal >= valorSaque){
+        if (saldoTotal >= valorSaque) {
 
             saldoDisponivel = saldoTotal - valorSaque;
             System.out.println("Saque realizado com sucesso. Novo saldo: " + saldoDisponivel);
 
-        }else{
+        } else {
 
             System.out.println("Saldo insuficiente. Saque nao realizado!");
 
         }
 
-<<<<<<< HEAD
-        scanner.close();
 
-=======
->>>>>>> origin/main
+        scanner.close();
     }
 }
