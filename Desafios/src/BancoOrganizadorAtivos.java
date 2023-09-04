@@ -26,6 +26,8 @@ public class BancoOrganizadorAtivos {
             System.out.println(ativo);
         }
 
+        scanner.close();
+
     }
 }
 

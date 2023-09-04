@@ -22,5 +22,7 @@ public class CondicionalmenteRico {
 
         }
 
+        scanner.close();
+
     }
 }
